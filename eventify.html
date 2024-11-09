@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventify</title>
+    <link rel="stylesheet" href="eventify.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Eventify</h1>
+            <p>Organize and manage your events effortlessly.</p>
+        </header>
+        <main>
+            <form id="event-form">
+                <label for="event-name">Event Name:</label>
+                <input type="text" id="event-name" placeholder="Enter event name">
+
+                <label for="event-date">Date:</label>
+                <input type="date" id="event-date">
+
+                <button type="submit">Add Event</button>
+            </form>
+
+            <div id="event-list">
+                <h2>Your Events</h2>
+                <ul id="events"></ul>
+            </div>
+        </main>
+    </div>
+
+    <script src="eventify.js"></script>
+</body>
+</html>
